@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ES6 Demo</title>
+</head>
+<body ng-app="app">
+<div ng-controller="mainController as vm">
+<h1>{{vm.msg}}</h1>
+</div>
+
+<script src="jspm_packages/system.js"></script>
+<script src="config.js"></script>
+
+<script>
+    System.import('./app/app')
+</script>
+</body>
+</html>
