@@ -1,7 +1,11 @@
+//import {commonFactory} from './common/common.srv';
+
 export class mainController
 {
-    constructor()
+    constructor(/*commonFactory*/)
     {
-      this.msg = 'Hello World...';
+  //    this.msg = commonFactory.get();
     }
 }
+
+//angular.module('app').controller(mainController.name, mainController);
